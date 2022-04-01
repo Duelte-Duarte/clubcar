@@ -137,6 +137,7 @@ div#carro {
     display: block;
     padding-top: 100px;
     text-align: center;
+    font-weight: bold;
 }
 
 .txt1 {
