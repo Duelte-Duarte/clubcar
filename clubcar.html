@@ -106,7 +106,7 @@
                     <label for="horario" class="labelinput">horário</label>
                 </div>
                 <br>
-                <input type="submit" name="submit" id="submit">
+                <div id="agendado"><input type="submit" name="submit" id="submit"></div>
             </div>
         </section>
     </main>
@@ -114,7 +114,16 @@
         <p>Criado por Duelte</p>
     </footer>
     <script>
-        
+        var a = document.getElementById('agendado')
+        a.addEventListener('click', clicar)
+
+        function clicar() {
+            a.innerText = "Agendado!"
+            a.style.textAlign = 'center'
+            a.style.background = 'red'
+            a.style.padding = '15px'
+            a.style.borderRadius = '10px'
+        }
     </script>
 </body>
 </html>
