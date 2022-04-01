@@ -202,7 +202,7 @@ aside.foto1 > div > img {
     height: 500px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     aside.foto1 > div > img {
         width: 350px;
         height: 350px;
