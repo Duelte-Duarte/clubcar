@@ -184,3 +184,24 @@ aside#foto {
     background-position: center center;
     background-size: 100% 100%;
 }
+
+aside.foto1 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+aside.foto1 > div {
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+aside.foto1 > div > img {
+    width: 500px;
+    height: 500px;
+}
+
+footer {
+    height: 50vh;
+}
