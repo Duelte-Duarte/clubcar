@@ -223,15 +223,11 @@ aside.foto1 > div > img {
 @media (max-width: 615px) {
     section > div > iframe {
         width: 400px;
-        margin: 0px;
-        padding: 0px;
     }    
 }
 
 @media (max-width: 460px) {
     section > div > iframe {
         width: 300px;
-        margin: 0px;
-        padding: 0px;
     }    
 }
