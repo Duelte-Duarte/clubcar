@@ -275,5 +275,8 @@ aside.foto1 > div > img {
 }
 
 footer {
-    
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
