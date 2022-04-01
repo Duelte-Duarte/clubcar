@@ -213,7 +213,7 @@ aside.foto1 > div > img {
 .mapa {
     max-width: 1200px;
     margin: auto;
-    height: 50vh;
+    height: 100%;
     margin: 30px;
     justify-content: space-between;
     flex-wrap: wrap;
